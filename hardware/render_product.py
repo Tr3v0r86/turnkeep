@@ -87,7 +87,8 @@ def render(mode):
     path=OUT/f'product-{mode}.png';writer=vtk.vtkPNGWriter();writer.SetFileName(str(path));writer.SetInputConnection(capture.GetOutputPort());writer.Write();win.Finalize()
     image=Image.open(path);assert image.size==(2100,1600) and np.asarray(image).std()>8
     print(path.name)
-for mode in ('hero','closed','exploded'):render(mode)
-# Verify rendering never mutated CAD inputs.
-for name,digest in source_hashes.items():assert hashlib.sha256((MESH/(name+'.stl')).read_bytes()).hexdigest()==digest
-(OUT/'product-render-validation.json').write_text(json.dumps({'source_STL_sha256':source_hashes,'screen_sha256':hashlib.sha256(SCREEN.read_bytes()).hexdigest(),'screen_pixels':[320,170],'screen_placement':'Nominal opening; original flat visual panel at z=35.5 mm, not vendor board geometry','geometry_unchanged':True,'output_pixels':[2100,1600],'materials':'Per-face visual colour study; not a claim about a fabricated finish','lighting':'Three native VTK lights and depth-based ambient occlusion'},indent=2)+'\n')
+if __name__ == '__main__':
+    for mode in ('hero','closed','exploded'):render(mode)
+    # Verify rendering never mutated CAD inputs.
+    for name,digest in source_hashes.items():assert hashlib.sha256((MESH/(name+'.stl')).read_bytes()).hexdigest()==digest
+    (OUT/'product-render-validation.json').write_text(json.dumps({'source_STL_sha256':source_hashes,'screen_sha256':hashlib.sha256(SCREEN.read_bytes()).hexdigest(),'screen_pixels':[320,170],'screen_placement':'Nominal opening; original flat visual panel at z=35.5 mm, not vendor board geometry','geometry_unchanged':True,'output_pixels':[2100,1600],'materials':'Per-face visual colour study; not a claim about a fabricated finish','lighting':'Three native VTK lights and depth-based ambient occlusion'},indent=2)+'\n')

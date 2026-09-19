@@ -11,3 +11,6 @@
 .stage img{border-radius:100px 8px 60px 8px}.product-art{z-index:2;opacity:.2}.view-controls{z-index:3}@media(max-width:640px){.stage img{border-radius:44px 4px 28px 4px}}
 /* Keep the decorative die inside its section, including its rotated corners. */
 .screen-row{overflow:clip}
+
+/* A parts bench connects the two paid options to the free maker route. */
+#get-turnkeep{background:var(--deep)}.kit-layout{margin:0 0 44px}.kit-layout img{display:block;width:100%;height:auto;border:1px solid #45616a;border-radius:4px 4px 42px 4px}.kit-layout figcaption{font-size:14px;color:var(--muted);max-width:90ch;margin-top:16px}.build-options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:36px}.build-options article{border-top:2px solid var(--brass);padding-top:20px}.build-options h3{font-size:30px;line-height:1.15;margin:18px 0}.build-options p{color:var(--muted)}.option-status{font-size:14px;color:var(--brass)}@media(max-width:800px){.build-options{grid-template-columns:1fr;gap:32px}.kit-layout{margin-bottom:32px}.kit-layout img{border-radius:4px 4px 20px 4px}}

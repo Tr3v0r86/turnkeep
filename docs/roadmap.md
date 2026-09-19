@@ -22,3 +22,5 @@ A real T-Display-S3 prototype and open CAD exist today. Character JSON can be va
 Real dice, paper and people stay central. Phone use belongs before and after play. Working files, firmware and build guides stay free forever. Versions must distinguish tested parts from visual concepts and current features from demonstrations. The website updates as the project evolves; new ideas do not silently become supported hardware.
 
 **Make it. Modify it. Copy it. Reinvent it. Make it yours.**
+
+Made-to-order offering also includes a build-it-yourself kit. Publish a validated packing list, battery specification, tools/adhesives required, assembly instructions and pricing before accepting kit orders. Custom assembled builds and kits remain coming soon; free sources are available now.

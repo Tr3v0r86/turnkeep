@@ -10,3 +10,5 @@
 Original renders exclude third-party miniature meshes and manufacturer board geometry. The screen capture uses a synthetic example character. Turnkeep is an independent maker project, with no claim of endorsement by game publishers or board manufacturers.
 
 The product hero uses original CAD meshes and the actual synthetic-character firmware screenshot. Material colors and lighting are illustrative; product geometry is rendered deterministically.
+
+The kit layout is a deterministic render of original case meshes and the real synthetic-character UI. Purchased components are original geometric illustrations, not manufacturer CAD or a finalized packing list. Felt and leather are shown as material blanks. Source: `hardware/render_kit.py`.

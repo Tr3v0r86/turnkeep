@@ -23,3 +23,7 @@ Physical v0.3 fit acceptance, upholstery trial, battery runtime/current, thermal
 ## Provenance and reuse
 
 The public repository starts with fresh history and original sources only. Manufacturer CAD, third-party miniatures and derived imagery are excluded. Runtime/toolchain dependencies are acquired from their upstream sources. The source ZIP contains only `RELEASE_FILES.txt` entries; `manifest.json` identifies the exact source commit, byte sizes and SHA-256 checksums. The GitHub prerelease assets are the versioned snapshot; later main-branch website builds do not replace those assets.
+
+## Build options
+
+Custom assembled boxes and build-it-yourself kits from Trevor are shown as coming soon alongside the free self-sourced build. An example parts layout uses unchanged original CAD and the actual UI, with clearly identified illustrative components and material blanks. Final kit contents and battery selection remain unvalidated.

@@ -1,0 +1,24 @@
+{
+  "source_STL_sha256": {
+    "body": "1cc2b9e0a078c97d008e32a2cdb9fdcb9414170cb8e64a3f5016f7578483645d",
+    "lid": "85545c1b1a4f82155459f713254c5bb4b3f1e147994e24aba3cb225b296db516",
+    "deck": "26f36cb8668ddfd823417934dc40095f4870be5317c7e86382f812d0d0a026eb",
+    "retainer": "18e24eeda622d4ace34b2b1021fb9dd8e28454ccb2bd3e65f5fc1c6898f3d208",
+    "button_0": "99cd7a790fd07df4779f619956141d25878caab66c0ca1ce2f502ffe3a13693b",
+    "button_1": "8432fe3c2c9b61d59ac7a8c8e42723ac6c0e23afaa598aa1e2f101a44bbae6fc",
+    "pad_0": "f1dd853b6ae2d61d38f6dac90bf1b4cb1c5fc3404a13b8866e3b47a252772694",
+    "pad_1": "b9f981a527ebf8530a7b312dbfa4daf16afb8f905d15d9fb56bd84a8d652e73c",
+    "pad_2": "cb8c28940c718172cfbc191ef4917a0666fd679f4d006c4991b87704717864ac",
+    "pad_3": "1a7eaa4cde2cfdc522b3685cb89dea510439ee82f0482bbef53b430d671d49f6"
+  },
+  "geometry_unchanged": true,
+  "screen_sha256": "105c6dfe37a1daa445355b638fdf7b6ddc7b3c1f39223e39bbb24439892a7e15",
+  "illustrative_only": [
+    "board housing",
+    "battery and lead",
+    "fasteners",
+    "magnets",
+    "uncut felt and leather blanks"
+  ],
+  "status": "Example kit layout; contents, quantities, battery selection and finishes not finalized"
+}

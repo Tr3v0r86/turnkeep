@@ -132,6 +132,7 @@ hardware/preview_meshes/pad_2.stl
 hardware/preview_meshes/pad_3.stl
 hardware/preview_meshes/retainer.stl
 hardware/render.py
+hardware/render_kit.py
 hardware/render_product.py
 hardware/requirements-lock.txt
 hardware/requirements.txt
@@ -161,6 +162,8 @@ media/cyd-concept.png
 media/epaper-concept.png
 media/exploded.png
 media/hero.png
+media/kit-layout-validation.json
+media/kit-layout.png
 media/module.png
 media/product-closed.png
 media/product-exploded.png
@@ -174,6 +177,7 @@ site/assets/cyd-concept.png
 site/assets/epaper-concept.png
 site/assets/exploded.png
 site/assets/hero.png
+site/assets/kit-layout.png
 site/assets/module.png
 site/assets/mono.ttf
 site/assets/product-closed.png
