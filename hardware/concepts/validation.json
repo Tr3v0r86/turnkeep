@@ -1,0 +1,108 @@
+{
+  "cyd": {
+    "assumptions_mm": {
+      "width": 198,
+      "depth": 132,
+      "height": 42,
+      "screen_bay": [
+        94,
+        64
+      ],
+      "panel": [
+        72,
+        48
+      ]
+    },
+    "parts": {
+      "body": {
+        "watertight": true,
+        "positive_volume": true
+      },
+      "deck": {
+        "watertight": true,
+        "positive_volume": true
+      },
+      "screen_placeholder": {
+        "watertight": true,
+        "positive_volume": true
+      },
+      "lid": {
+        "watertight": true,
+        "positive_volume": true
+      }
+    },
+    "fit_validated": false,
+    "print_release": false
+  },
+  "round": {
+    "assumptions_mm": {
+      "width": 190,
+      "depth": 142,
+      "height": 40,
+      "screen_bay": [
+        82,
+        82
+      ],
+      "panel": [
+        62,
+        62
+      ],
+      "panel_shape": "circle"
+    },
+    "parts": {
+      "body": {
+        "watertight": true,
+        "positive_volume": true
+      },
+      "deck": {
+        "watertight": true,
+        "positive_volume": true
+      },
+      "screen_placeholder": {
+        "watertight": true,
+        "positive_volume": true
+      },
+      "lid": {
+        "watertight": true,
+        "positive_volume": true
+      }
+    },
+    "fit_validated": false,
+    "print_release": false
+  },
+  "epaper": {
+    "assumptions_mm": {
+      "width": 224,
+      "depth": 150,
+      "height": 40,
+      "screen_bay": [
+        112,
+        82
+      ],
+      "panel": [
+        90,
+        62
+      ]
+    },
+    "parts": {
+      "body": {
+        "watertight": true,
+        "positive_volume": true
+      },
+      "deck": {
+        "watertight": true,
+        "positive_volume": true
+      },
+      "screen_placeholder": {
+        "watertight": true,
+        "positive_volume": true
+      },
+      "lid": {
+        "watertight": true,
+        "positive_volume": true
+      }
+    },
+    "fit_validated": false,
+    "print_release": false
+  }
+}

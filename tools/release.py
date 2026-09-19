@@ -6,7 +6,7 @@ import subprocess
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = '0.1.0-prototype.1'
+VERSION = '0.1.0-prototype.2'
 
 
 def checked_file(root, name):
@@ -47,6 +47,7 @@ def build(root=ROOT):
     names = file_list(root)
     git = subprocess.run(['git', 'rev-parse', '--verify', 'HEAD'], cwd=root, capture_output=True, text=True)
     revision = git.stdout.strip() if git.returncode == 0 else 'uncommitted-preview'
+    dirty = bool(subprocess.run(['git', 'status', '--porcelain'], cwd=root, capture_output=True, text=True).stdout.strip()) if git.returncode == 0 else True
     output = root / 'site/downloads'
     output.mkdir(parents=True, exist_ok=True)
     entries = []
@@ -60,7 +61,7 @@ def build(root=ROOT):
             bundle.writestr(info, data)
             entries.append(dict(path=name, bytes=len(data), sha256=hashlib.sha256(data).hexdigest(), license=license_for(name)))
     data = archive.read_bytes()
-    manifest = dict(version=VERSION, source_commit=revision, status='experimental; physical fit and endurance acceptance pending', components=dict(body='0.2', lid='0.2', screen_module='0.3'), archive=dict(path=archive.name, bytes=len(data), sha256=hashlib.sha256(data).hexdigest()), files=entries)
+    manifest = dict(version=VERSION, source_commit=revision, working_tree_dirty=dirty, status='experimental; physical fit and endurance acceptance pending', components=dict(body='0.2', lid='0.2', screen_module='0.3'), archive=dict(path=archive.name, bytes=len(data), sha256=hashlib.sha256(data).hexdigest()), files=entries)
     (output / 'manifest.json').write_text(json.dumps(manifest, indent=2) + '\n')
     (output / 'SHA256SUMS.txt').write_text(f'{manifest["archive"]["sha256"]}  {archive.name}\n')
     print(f'{len(entries)} reviewed files; {len(data):,} byte archive; source {revision}')

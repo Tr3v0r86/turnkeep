@@ -51,3 +51,5 @@ For nominal board/contact checks, acquire the manufacturer's model independently
 [Two-piece upholstery](upholstery/README.md) provides the editable generator and two actual-size A4 landscape PDF pages. Paper-test first, then test a scrap of the actual 1 mm material. Keep the current screen surround painted and removable. The shape check establishes exactly two connected nets; it does not prove physical PVC fit.
 
 Build assertions check connected valid solids, watertight meshes, dimensions, non-overlap, insertion/adjustment sweeps, screw/battery clearances and open/closed lid geometry. Optional board checks cover clearances and contact areas. Physical printer tolerances, actual board revision, magnetic holding force, button loads, cable fit, upholstery and long-term creep remain unverified. This package does not claim a completed physical fit or slice validation.
+
+AliExpress specification-search links for every material and common tools are in the [website materials list](https://tr3v0r86.github.io/turnkeep/#materials). Listings are not qualified suppliers; verify the variant and dimensions before buying.

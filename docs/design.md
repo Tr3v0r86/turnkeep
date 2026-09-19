@@ -24,3 +24,5 @@ The case → how it works → build guidance → files → development journal. 
 ## Accessibility and maintenance
 
 Use semantic sections, a first-focus skip link, visible keyboard focus, native disclosures and visible navigation. Keep illustrations paired with text descriptions. Preserve 320 px reflow and readable tables. Respect reduced-motion preference. Do not add autoplay or scroll hijacking. Update evidence labels when a physical check actually passes, and version the file set when geometry or firmware changes.
+
+The product thesis now leads: **Bring the game back to the table.** Phone preparation supports offline play instead of competing with it. The setup demo is an interactive, explicitly simulated flow; the real current device and future display concepts remain visibly distinct. The maker invitation is **Make it. Modify it. Copy it. Reinvent it. Make it yours.** Keep optional coffee support separate from the upcoming assembled-box offer.

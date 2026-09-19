@@ -1,5 +1,6 @@
 # Third-party notices
 
+- Optional QR asset generator: `qrcode` 8.2, BSD-3-Clause, installed separately. The generated QR encodes only the public setup-demo URL.
 - Website Bricolage Grotesque: SIL Open Font License 1.1; [license](LICENSES/Bricolage-OFL.txt), [source](https://github.com/google/fonts/tree/main/ofl/bricolagegrotesque).
 - Website IBM Plex Mono: SIL Open Font License 1.1; [license](LICENSES/IBM-Plex-OFL.txt), [source](https://github.com/google/fonts/tree/main/ofl/ibmplexmono).
 - Firmware component dependencies and bundled font derivatives retain the notices in `firmware/` and the dependency packages. ESP-IDF, LVGL and Espressif components are fetched by the documented toolchain, not relicensed by this project.
