@@ -6,7 +6,7 @@ import subprocess
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = '0.1.0-prototype.4'
+VERSION = '0.1.0-prototype.5'
 
 
 def checked_file(root, name):

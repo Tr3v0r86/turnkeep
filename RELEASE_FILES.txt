@@ -195,3 +195,5 @@ site/setup.js
 tools/generate_qr.py
 tools/release.py
 tools/test_release.py
+site/mobile.js
+tools/check-mobile.js

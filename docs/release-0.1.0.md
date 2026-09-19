@@ -27,3 +27,7 @@ The public repository starts with fresh history and original sources only. Manuf
 ## Build options
 
 Custom assembled boxes and build-it-yourself kits from Trevor are shown as coming soon alongside the free self-sourced build. An example parts layout uses unchanged original CAD and the actual UI, with clearly identified illustrative components and material blanks. Final kit contents and battery selection remain unvalidated.
+
+## Mobile layout
+
+Compact phone navigation, reduced heading scale, concise copy and native disclosures for technical details. Desktop content stays expanded. Hash navigation reveals nested details; phone setup uses the direct link instead of a QR image.
