@@ -167,6 +167,7 @@ site/assets/closed.png
 site/assets/cyd-concept.png
 site/assets/epaper-concept.png
 site/assets/exploded.png
+site/assets/hero-product-v2.png
 site/assets/hero.png
 site/assets/module.png
 site/assets/mono.ttf

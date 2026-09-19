@@ -8,3 +8,5 @@
 - The LilyGo T-Display-S3 is third-party hardware. Manufacturer CAD is not redistributed. The original reference is available from [LilyGo's dimensions directory](https://github.com/Xinyuan-LilyGO/T-Display-S3/tree/main/dimensions). Any optional local use must follow the upstream terms.
 
 Original renders exclude third-party miniature meshes and manufacturer board geometry. The screen capture uses a synthetic example character. Turnkeep is an independent maker project, with no claim of endorsement by game publishers or board manufacturers.
+
+`site/assets/hero-product-v2.png` is an AI-generated finish illustration guided by the current CAD render. Its compartment arrangement, lid silhouette and screen location were visually compared with CAD; it is not dimensional validation or a photograph. Use `media/hero.png` and the CAD files for actual geometry. The generated image contains no miniature or manufacturer board geometry.
