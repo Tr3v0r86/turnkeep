@@ -1,0 +1,284 @@
+{
+  "board_reference_checked": false,
+  "parts": {
+    "01_body": {
+      "bounds_mm": [
+        166.0,
+        112.0,
+        32.2
+      ],
+      "watertight": true,
+      "one_solid": true,
+      "sha256": "34302f05849b7fee2710fe26eca197640522432a154204331a5ab90743a8d221"
+    },
+    "02_rolling_lid": {
+      "bounds_mm": [
+        166.0,
+        110.0,
+        16.0
+      ],
+      "watertight": true,
+      "one_solid": true,
+      "sha256": "bde3b6b8335aeef75d3b269d71680c2177acee74e4c0f8d0e23005f3461a069d"
+    },
+    "03_faceplate_v03": {
+      "bounds_mm": [
+        74.0,
+        46.0,
+        10.6
+      ],
+      "watertight": true,
+      "one_solid": true,
+      "sha256": "6718e9647e33e5e9e349b757b46a43765f4b85b21e24c080d130beaa4ce43162"
+    },
+    "04_adjustable_retainer_v03": {
+      "bounds_mm": [
+        62.681,
+        39.499,
+        7.2
+      ],
+      "watertight": true,
+      "one_solid": true,
+      "sha256": "72174e8603f76ef56377afc99f75a701c51531b529d141030fd5d806f4bbe10e"
+    },
+    "05_front_button_PRINT_2": {
+      "bounds_mm": [
+        3.4,
+        3.399,
+        5.48
+      ],
+      "watertight": true,
+      "one_solid": true,
+      "sha256": "94ed6dadb342d1f4ec968a1416093b6cca6462559ee873eb8c1ff9774a06efc1"
+    },
+    "06_insulating_support_PRINT_4": {
+      "bounds_mm": [
+        3.0,
+        2.999,
+        4.2
+      ],
+      "watertight": true,
+      "one_solid": true,
+      "sha256": "f560fe2abe7e42945598afb11e09674df968b21317076e60c1086b35ed6a2837"
+    },
+    "08_fit_coupon": {
+      "bounds_mm": [
+        80.0,
+        65.0,
+        7.0
+      ],
+      "watertight": true,
+      "one_solid": true,
+      "sha256": "110e8163bf122ebfbeca2345799e40007a4b7d99d1b2c3eaf4b0d0a943f2095b"
+    },
+    "09_lid_fit_male": {
+      "bounds_mm": [
+        42.0,
+        20.0,
+        9.0
+      ],
+      "watertight": true,
+      "one_solid": true,
+      "sha256": "3fe87de1f1e569b260a7df66b6b3635a5e2958c8c96c09276b4be73f5b506f05"
+    },
+    "10_lid_fit_female": {
+      "bounds_mm": [
+        42.0,
+        20.0,
+        9.0
+      ],
+      "watertight": true,
+      "one_solid": true,
+      "sha256": "2ad276484d7785f0e760623ffb39816f9cd942bff55cdc03b62aad3a50a313b8"
+    },
+    "11_dock_socket_coupon": {
+      "bounds_mm": [
+        22.0,
+        16.0,
+        16.0
+      ],
+      "watertight": true,
+      "one_solid": true,
+      "sha256": "aa2d2e7e1b3f615395110ac7e18c281bc57b00dc7ce61e2f289abd05af026a97"
+    },
+    "12_dock_collar_coupon": {
+      "bounds_mm": [
+        22.0,
+        18.0,
+        16.0
+      ],
+      "watertight": true,
+      "one_solid": true,
+      "sha256": "5662e2058d3ed5e3b9d760ed1d887c222d165a6b7fffc631339a3c79db8917fd"
+    }
+  },
+  "clearance_checks_mm3": {
+    "deck_body": 0.0,
+    "deck_lid_closed": 0.0,
+    "deck_battery": 0.0,
+    "retainer_body": 0.0,
+    "retainer_lid_closed": 0.0,
+    "retainer_battery": 0.0,
+    "button_0_body": 0.0,
+    "button_0_lid_closed": 0.0,
+    "button_0_battery": 0.0,
+    "button_1_body": 0.0,
+    "button_1_lid_closed": 0.0,
+    "button_1_battery": 0.0,
+    "pad_0_body": 0.0,
+    "pad_0_lid_closed": 0.0,
+    "pad_0_battery": 0.0,
+    "pad_1_body": 0.0,
+    "pad_1_lid_closed": 0.0,
+    "pad_1_battery": 0.0,
+    "pad_2_body": 0.0,
+    "pad_2_lid_closed": 0.0,
+    "pad_2_battery": 0.0,
+    "pad_3_body": 0.0,
+    "pad_3_lid_closed": 0.0,
+    "pad_3_battery": 0.0,
+    "deck__retainer": 0.0,
+    "deck__button_0": 0.0,
+    "deck__button_1": 0.0,
+    "deck__pad_0": 0.0,
+    "deck__pad_1": 0.0,
+    "deck__pad_2": 0.0,
+    "deck__pad_3": 0.0,
+    "retainer__button_0": 0.0,
+    "retainer__button_1": 0.0,
+    "retainer__pad_0": 0.0,
+    "retainer__pad_1": 0.0,
+    "retainer__pad_2": 0.0,
+    "retainer__pad_3": 0.0,
+    "button_0__button_1": 0.0,
+    "button_0__pad_0": 0.0,
+    "button_0__pad_1": 0.0,
+    "button_0__pad_2": 0.0,
+    "button_0__pad_3": 0.0,
+    "button_1__pad_0": 0.0,
+    "button_1__pad_1": 0.0,
+    "button_1__pad_2": 0.0,
+    "button_1__pad_3": 0.0,
+    "pad_0__pad_1": 0.0,
+    "pad_0__pad_2": 0.0,
+    "pad_0__pad_3": 0.0,
+    "pad_1__pad_2": 0.0,
+    "pad_1__pad_3": 0.0,
+    "pad_2__pad_3": 0.0,
+    "button_0_continuous_insertion": 0.0,
+    "button_0_two_mm_motion_clearance": 0.0,
+    "button_1_continuous_insertion": 0.0,
+    "button_1_two_mm_motion_clearance": 0.0,
+    "pad_0_adjustment_sweep": 0.0,
+    "adjuster_0_battery": 0.0,
+    "adjuster_0_plastic": 0.0,
+    "adjuster_0_case": 0.0,
+    "pad_1_adjustment_sweep": 0.0,
+    "adjuster_1_battery": 0.0,
+    "adjuster_1_plastic": 0.0,
+    "adjuster_1_case": 0.0,
+    "pad_2_adjustment_sweep": 0.0,
+    "adjuster_2_battery": 0.0,
+    "adjuster_2_plastic": 0.0,
+    "adjuster_2_case": 0.0,
+    "pad_3_adjustment_sweep": 0.0,
+    "adjuster_3_battery": 0.0,
+    "adjuster_3_plastic": 0.0,
+    "adjuster_3_case": 0.0,
+    "mount_0_deck": 0.0,
+    "mount_0_retainer": 0.0,
+    "mount_0_body": 0.0,
+    "mount_1_deck": 0.0,
+    "mount_1_retainer": 0.0,
+    "mount_1_body": 0.0,
+    "mount_2_deck": 0.0,
+    "mount_2_retainer": 0.0,
+    "mount_2_body": 0.0,
+    "mount_3_deck": 0.0,
+    "mount_3_retainer": 0.0,
+    "mount_3_body": 0.0,
+    "case_screw_0_deck": 0.0,
+    "case_screw_0_retainer": 0.0,
+    "case_screw_0_body": 0.0,
+    "case_screw_1_deck": 0.0,
+    "case_screw_1_retainer": 0.0,
+    "case_screw_1_body": 0.0,
+    "case_screw_2_deck": 0.0,
+    "case_screw_2_retainer": 0.0,
+    "case_screw_2_body": 0.0,
+    "case_screw_3_deck": 0.0,
+    "case_screw_3_retainer": 0.0,
+    "case_screw_3_body": 0.0,
+    "adjuster_0_retracted_battery": 0.0,
+    "adjuster_0_retracted_body": 0.0,
+    "adjuster_1_retracted_battery": 0.0,
+    "adjuster_1_retracted_body": 0.0,
+    "adjuster_2_retracted_battery": 0.0,
+    "adjuster_2_retracted_body": 0.0,
+    "adjuster_3_retracted_battery": 0.0,
+    "adjuster_3_retracted_body": 0.0,
+    "deck_docked_lid": 0.0,
+    "retainer_docked_lid": 0.0,
+    "button_0_docked_lid": 0.0,
+    "button_1_docked_lid": 0.0,
+    "pad_0_docked_lid": 0.0,
+    "pad_1_docked_lid": 0.0,
+    "pad_2_docked_lid": 0.0,
+    "pad_3_docked_lid": 0.0,
+    "body_lid_closed": 0.0,
+    "body_lid_docked": 0.0
+  },
+  "bare_PCB_contacts": [],
+  "frame_contact_area_mm2": null,
+  "geometry": {
+    "button_centres": [
+      [
+        7.11921,
+        12.71162
+      ],
+      [
+        7.00201,
+        30.80962
+      ]
+    ],
+    "rear_pads": [
+      [
+        7.11921,
+        12.71162
+      ],
+      [
+        22.0,
+        33.5
+      ],
+      [
+        62.8,
+        14.5
+      ],
+      [
+        62.8,
+        29.5
+      ]
+    ],
+    "front_frame_seat_z": 35.77,
+    "rear_PCB_z": 29.42,
+    "faceplate_top_z": 37.2,
+    "guide_diameter": 2.8,
+    "button_stem_diameter": 2.2,
+    "pad_tip_diameter": 2.0
+  },
+  "limits": [
+    "Board checks run only with --board-step; physical printing tolerances and exact board revision not certified.",
+    "Support adjustment is required on the physical board. No FEA or measured button-load test performed.",
+    "Switch travel check verifies plastic clearance, not the switch mechanical travel specification."
+  ],
+  "combined_print_plate": {
+    "pieces": 8,
+    "watertight": true,
+    "bounds_mm": [
+      142.681,
+      60.399,
+      10.6
+    ],
+    "sha256": "4a44e3917d535cbae1e6e7336fd57779c542665d45682141310249acdac5ef3a"
+  }
+}

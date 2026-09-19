@@ -1,0 +1,41 @@
+{
+  "format_version": "1.0",
+  "character_id": "synthetic-mara-vale",
+  "identity": {
+    "name": "Mara Vale",
+    "ancestry": "Elf",
+    "class_name": "Eldritch Knight",
+    "level": 4
+  },
+  "combat": {
+    "max_hp": 40,
+    "armor_class": 18
+  },
+  "resources": {
+    "spell_slots_max": 3,
+    "class_resource_name": "Surge",
+    "class_resource_max": 1
+  },
+  "actions": [
+    {"id": "longsword", "name": "Longsword", "detail": "+6 hit | 1d8+4 slashing | 5 ft"},
+    {"id": "handaxe", "name": "Handaxe", "detail": "+6 hit | 1d6+4 slashing | 20/60"},
+    {"id": "second-wind", "name": "Second Wind", "detail": "Bonus action | regain 1d10+4 HP"}
+  ],
+  "spells": [
+    {"id": "shield", "name": "Shield", "detail": "Reaction | self | +5 AC until next turn"},
+    {"id": "magic-missile", "name": "Magic Missile", "detail": "Action | 120 ft | three 1d4+1 darts"},
+    {"id": "fire-bolt", "name": "Fire Bolt", "detail": "Action | 120 ft | +5 hit | 1d10 fire"}
+  ],
+  "checks": [
+    {"id": "athletics", "name": "Athletics", "detail": "+6"},
+    {"id": "perception", "name": "Perception", "detail": "+3"},
+    {"id": "stealth", "name": "Stealth", "detail": "+2"},
+    {"id": "arcana", "name": "Arcana", "detail": "+5"}
+  ],
+  "sheet": [
+    {"id": "defenses", "name": "Defenses", "detail": "AC 18 | speed 30 | passive perception 13"},
+    {"id": "saves", "name": "Saves", "detail": "STR +6 | CON +5 | WIS +1"},
+    {"id": "equipment", "name": "Equipment", "detail": "Longsword | shield | handaxes x2"},
+    {"id": "features", "name": "Features", "detail": "Action Surge | Second Wind | Weapon Bond"}
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CharacterPack v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "format_version",
+    "character_id",
+    "identity",
+    "combat",
+    "resources",
+    "actions",
+    "spells",
+    "checks",
+    "sheet"
+  ],
+  "properties": {
+    "format_version": {
+      "type": "string",
+      "pattern": "^1\\.[0-9]+$"
+    },
+    "character_id": {
+      "$ref": "#/$defs/id"
+    },
+    "identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "ancestry",
+        "class_name",
+        "level"
+      ],
+      "properties": {
+        "name": {
+          "$ref": "#/$defs/shortText"
+        },
+        "ancestry": {
+          "$ref": "#/$defs/shortText"
+        },
+        "class_name": {
+          "$ref": "#/$defs/shortText"
+        },
+        "level": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 20
+        }
+      }
+    },
+    "combat": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "max_hp",
+        "armor_class"
+      ],
+      "properties": {
+        "max_hp": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 9999
+        },
+        "armor_class": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 99
+        }
+      }
+    },
+    "resources": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "spell_slots_max",
+        "class_resource_name",
+        "class_resource_max"
+      ],
+      "properties": {
+        "spell_slots_max": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 99
+        },
+        "class_resource_name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 24,
+          "pattern": "^[ -~\\u00b7]+$"
+        },
+        "class_resource_max": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 99
+        }
+      }
+    },
+    "actions": {
+      "$ref": "#/$defs/entries"
+    },
+    "spells": {
+      "$ref": "#/$defs/entries"
+    },
+    "checks": {
+      "$ref": "#/$defs/entries"
+    },
+    "sheet": {
+      "$ref": "#/$defs/entries"
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]{0,63}$"
+    },
+    "shortText": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 40,
+      "pattern": "^[ -~\\u00b7]+$"
+    },
+    "entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "detail"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 48,
+          "pattern": "^[ -~\\u00b7]+$"
+        },
+        "detail": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 512,
+          "pattern": "^[ -~\\u00b7]+$"
+        }
+      }
+    },
+    "entries": {
+      "type": "array",
+      "maxItems": 64,
+      "items": {
+        "$ref": "#/$defs/entry"
+      }
+    }
+  }
+}

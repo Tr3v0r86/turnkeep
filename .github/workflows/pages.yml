@@ -1,0 +1,40 @@
+name: Publish Turnkeep
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 tools/test_release.py
+      - run: python3 -m unittest tools/character/tests/test_pack.py
+        working-directory: firmware
+      - name: Check portable firmware logic
+        working-directory: firmware
+        run: |
+          cc -std=c11 -Wall -Wextra -Werror -Iapps/character/core/include apps/character/core/test_character_core.c apps/character/core/character_core.c -o /tmp/core
+          /tmp/core
+          cc -std=c11 -Wall -Wextra -Werror -Iboards/tdisplay-s3/main boards/tdisplay-s3/test/test_button_filter.c boards/tdisplay-s3/main/button_filter.c -o /tmp/buttons
+          /tmp/buttons
+      - run: python3 tools/release.py
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - uses: actions/deploy-pages@v4
+        id: deployment

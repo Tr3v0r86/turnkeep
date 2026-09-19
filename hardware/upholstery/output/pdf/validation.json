@@ -1,0 +1,37 @@
+{
+  "total_material_pieces": 2,
+  "units": "mm",
+  "scale": "1:1",
+  "material_mm": 1,
+  "corner_neutral_radius_mm": 5.5,
+  "provisional_bend_trim_allowance_mm": 0.5,
+  "pieces": [
+    {
+      "piece": "lid",
+      "connected_components": 1,
+      "valid_polygon": true,
+      "cut_bounds_mm": [
+        198.39999999999998,
+        142.4
+      ],
+      "area_mm2": 21261.36440134207,
+      "interior_cutouts": 2,
+      "page_orientation": "landscape",
+      "outside_view_mirrored": false
+    },
+    {
+      "piece": "base",
+      "connected_components": 1,
+      "valid_polygon": true,
+      "cut_bounds_mm": [
+        218.0,
+        162.0
+      ],
+      "area_mm2": 30041.966779277933,
+      "interior_cutouts": 3,
+      "page_orientation": "landscape",
+      "outside_view_mirrored": true
+    }
+  ],
+  "physical_fit": "Unverified; paper then material scrap required."
+}

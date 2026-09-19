@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+site/downloads/
+firmware/build*/
+firmware/sim/build/
+firmware/boards/tdisplay-s3/managed_components/
+firmware/boards/tdisplay-s3/sdkconfig
+firmware/boards/tdisplay-s3/sdkconfig.old
+.gstack/
