@@ -9,4 +9,4 @@
 
 Original renders exclude third-party miniature meshes and manufacturer board geometry. The screen capture uses a synthetic example character. Turnkeep is an independent maker project, with no claim of endorsement by game publishers or board manufacturers.
 
-`site/assets/hero-product-v2.png` is an AI-generated finish illustration guided by the current CAD render. Its compartment arrangement, lid silhouette and screen location were visually compared with CAD; it is not dimensional validation or a photograph. Use `media/hero.png` and the CAD files for actual geometry. The generated image contains no miniature or manufacturer board geometry.
+The product hero uses original CAD meshes and the actual synthetic-character firmware screenshot. Material colors and lighting are illustrative; product geometry is rendered deterministically.

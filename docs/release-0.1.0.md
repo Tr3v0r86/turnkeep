@@ -4,6 +4,8 @@
 
 Version `0.1.0-prototype.2`: retained v0.2 body and lid, v0.3 adjustable screen module, two-piece wrap nets and standalone character firmware. Use the complete module: one faceplate, one carrier, two buttons and four insulating supports. The repair plate contains those eight pieces. Full-build instructions and fastener quantities are in `hardware/README.md`.
 
+Website update: the hero now renders the unchanged original CAD meshes and the actual 320×170 firmware UI. Open/packed/exploded controls, original vector tabletop artwork and revised typography/style are included. `hardware/render_product.py` reproduces the images; the media validation record hashes all inputs. The domain guide now explains root GitHub Pages hosting with an inherited `/turnkeep/` path, rather than an address-changing redirect.
+
 ## Evidence
 
 CAD default build passed 114 geometric checks. A separate nominal manufacturer-board reference run passed 163 checks; that reference is excluded from the distribution. Saved deliverables verified as 10 valid original STEP solids, 11 watertight STL designs with matching hashes, an eight-piece repair plate and a two-page A4 landscape wrap PDF.
